@@ -18,12 +18,13 @@
 
 4. Setup Aplications
 
-Rename .env.example to .env and fill the environment variable.
+Rename/Copy .env.example to .env and fill the environment variable.
 
 Generate a new key for your local application
 ```
 php artisan key:generate
 ```
+Setting your database in .env before migrate the table
 
 Migrate the table to database
 ```
