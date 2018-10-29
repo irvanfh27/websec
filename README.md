@@ -10,7 +10,7 @@
 1. Clone this repo
 
 2. Install dependency
-
+   ```
    composer install
    ```
 
@@ -29,6 +29,8 @@ Migrate the table to database
 ```
 php artisan migrate
 
+```
 5. Run the project
+```
 php artisan serve
 ```
